@@ -1,0 +1,29 @@
+.card{
+    width: 330px;
+background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);    box-shadow: 0px 0px 14px -2px #bebebe;
+    transition: 0.2s ease-in-out;
+    height: 40vh;
+    margin:20px;
+    border-radius: 13px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background:linear-gradient(#7980c5,#9198e5);
+    display: flex;
+    align-items: top;
+
+}
+.text{
+    font-family: system-ui;
+  color: black;
+  font-size: medium;
+  font-size: 19px;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.main-container{
+    position: sticky;
+  top: 0;
+  z-index: 999;
+
+  width: 100%;
+  padding: 12px 18px;
+  background: rgba(177, 140, 140, 0.85);
+  backdrop-filter: blur(10px);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  border-bottom: 4px solid rgba(20, 19, 19, 0.25);
+
+}
+.main-container header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: rgb(241, 211, 191);
+}
